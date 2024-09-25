@@ -15,7 +15,7 @@ Nele encontra-se:
 
 ## Layout Mobile 📱
 
-<img src="./src/imagens-projetos/">
+<img src="./src/imagens-projetos/Animação-layout-mobile.gif">
 
 ## Técnologias utilizadas
 
