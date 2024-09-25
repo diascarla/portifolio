@@ -50,10 +50,11 @@ html {
   
   .redes-sociais a:hover {
     color: var(--cor-primaria);
+    font-size: 2.5rem;
   }
   
   .outer-shadow {
-    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+    box-shadow: 3px 3px #363536, -3px -3px 3px #454545;
   }
   
   .inner-shadow {
@@ -69,23 +70,31 @@ html {
     flex: 0 0 100%;
     max-width: 100%;
     padding: 60px 0;
+    transition: all 0.3s ease;
   }
   
   .section-title h2 {
     font-size: var(--fonte-gigante);
     font-weight: 500;
     text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+
+  .section-title h2:hover{
+    font-size: 5.5rem;
+    color: #c58eb0ee;
   }
   
   .botao {
     font-size: var(--fonte-grande);
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 20px;
     transition: all .3s ease;
-    background-color: var(--cor-primaria);
+    background-color: rgb(204, 157, 165);
   }
   
   .botao:hover {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
     color: var(--cor-branca);
+    font-size: 2.5rem;
   }

@@ -13,12 +13,13 @@
     line-height: 55px;
     text-align: center;
     text-decoration: underline;
-    transition: 0.2s;
+    transition: all 0.3s ease;
 }
 
 .header a:hover .logo {
     color: var(--cor-primaria);
     border: 2px solid var(--cor-primaria);
+    font-size: 3.5rem;
 }
 
 .header nav ul {
@@ -31,13 +32,14 @@
     font-size: 2rem;
     font-weight: 500;
     padding: 10px 20px;
-    transition: 0.2s;
+    transition: all 0.3s ease;
     letter-spacing: 1px;
     user-select: none;
 }
 
 .header nav ul li a:hover{
     color: var(--cor-primaria);
+    font-size: 2.5rem;
 }
 
 .header .menu{
@@ -116,17 +118,7 @@
     /* pega todos os itens que após o input e que sao irmaos dele */
     .header nav input:checked ~ ul {
         display: block;
-        position: fixed;
-        left: 0;
-        height: 100vh;
-        z-index: 1; 
-        width: 100%;
-        align-content: center;
     } 
-
-    .header .logo{
-        display: none;
-    }
 
     .header nav {
         position: absolute;        

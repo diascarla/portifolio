@@ -4,6 +4,7 @@
 }
 
 .home .texto-home {
+    font-size: 50px;
     letter-spacing: 2px;
 }
 
@@ -12,6 +13,43 @@
     /* ocupa 50% do tamanho e não faz grow nem shrink */
     max-width: 50%;
     padding: 0 15px;
+}
+
+.home .texto-home::before{
+    content: "";
+    animation: texto 5s infinite;
+}
+
+.home .texto-home::after{
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    right: -10px;
+    animation: animacao .5s infinite, digita 5s steps(80) infinite;
+    width: calc(100% + 18px);
+    background-color: var(--background);
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 18px);
+    }
+}
+
+@keyframes texto {
+    0%,25%{
+        content: "Olá,";
+    }
+    26%,70%{
+        content: " Sou a Carla Dias";
+    }
+    71%,100%{
+        content: "Desenvolvedora frontend";
+    }
 }
 
 @media(max-width: 1280px) {
