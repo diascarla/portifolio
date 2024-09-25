@@ -6,6 +6,7 @@ html {
     color: var(--cor-branca);
     font-weight: 300;
     scroll-behavior: smooth;
+    /* overflow:  ; */
   }
   
   body {
