@@ -11,7 +11,7 @@ Nele encontra-se:
 
 ## Layout Desktop 💻
 
-<img src="./src/imagens-projetos/Animação-layou-desktop.gif">
+<img src="./src/imagens-projetos/Animação-layout-desktop.gif">
 
 ## Layout Mobile 📱
 
