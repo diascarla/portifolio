@@ -1,258 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carla Dias - Desenvolvedor Frontend</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carla Dias - Desenvolvedor Frontend</title>
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
 
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-  
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/secoes/header.css" />
-  <link rel="stylesheet" href="src/css/secoes/home.css" />
-  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
-  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+  </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">CD</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">< cd /> </h1>
+          </a>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
 
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <div class="redes-sociais">
+              <a
+                href="https://www.linkedin.com/in/carla-dias-9971b7265/"
+                class="outer-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/message/DWCWE2N7U3U2G1?autoload=1&app_absent=0"
+                class="outer-shadow"
+                class="outer-shadow"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="https://github.com/diascarla" class="outer-shadow"
+                ><i class="fab fa-github"></i
+              ></a>
             </div>
-          </label>
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-
-          <div class="redes-sociais">
-            <a href="https://www.linkedin.com/in/carla-dias-9971b7265/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://api.whatsapp.com/message/DWCWE2N7U3U2G1?autoload=1&app_absent=0" class="outer-shadow" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/diascarla" class="outer-shadow"><i class="fab fa-github"></i></a>
           </div>
-        </div>
 
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="src/imagens/WhatsApp Image 2024-10-31 at 17.12.56.jpeg" alt="foto do perfil do Carla" />
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                class="outer-shadow"
+                src="src/imagens/WhatsApp Image 2024-10-31 at 17.12.56.jpeg"
+                alt="foto do perfil do Carla"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
         </div>
-      </div>
         <div class="informacoes-sobre-mim">
           <p>
-            <strong>Olá, meu nome é Carla 🤞, estudante na área de TI, formada em análise e desenvolvimento de sistemas</strong>
-            , atualmente estou cursando o DevQuest - Dev Em Dobro, um curso de formação FullStack com mentoria. 
-            Sou uma pessoa responsável, organizada e focada , que busca crescer na área de tecnologia, pois tenho certeza que posso agregar em qualquer time com as minhas habilidades. Estou sempre me desafiando com novos projetos. Tenho interesse em desenvolvimento de web.
-            Sou uma pessoa flexível, que tem capacidade de adaptação, trabalho bem em equipe, sou colaborativa, que gerencia bem o tempo, tenho capacidade de analítica.
-            Tenho formação técnica em estética, trabalhei algum tempo nessa área, essa profissão me trouxe experiências que levo para o meu dia-a-dia e podem agregar na área de TI.
+            <strong
+              >Olá, meu nome é Carla 🤞, estudante na área de TI, formada em
+              análise e desenvolvimento de sistemas</strong
+            >
+            , atualmente estou cursando o DevQuest - Dev Em Dobro, um curso de
+            formação FullStack com mentoria. Sou uma pessoa responsável,
+            organizada e focada , que busca crescer na área de tecnologia, pois
+            tenho certeza que posso agregar em qualquer time com as minhas
+            habilidades. Estou sempre me desafiando com novos projetos. Tenho
+            interesse em desenvolvimento de web. Sou uma pessoa flexível, que
+            tem capacidade de adaptação, trabalho bem em equipe, sou
+            colaborativa, que gerencia bem o tempo, tenho capacidade de
+            analítica. Tenho formação técnica em estética, trabalhei algum tempo
+            nessa área, essa profissão me trouxe experiências que levo para o
+            meu dia-a-dia e podem agregar na área de TI.
           </p>
-
           <p>
-           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 💕
+            Estou sempre me desafiando com novos projetos e participando de
+            comunidades de programação para buscar feedback de outros
+            desenvolvedores e desenvolvedoras. Além de tentar ajudar essas
+            pessoas com o que eu já aprendi. 💕
           </p>
 
           <div class="botoes">
-            <a target="_blank" href="./src/arquivo/Curriculo Dev-FrontEnd.pdf" class="botao outer-shadow">Veja meu CV</a>
+            <a
+              target="_blank"
+              href="./src/arquivo/Curriculo Developer.pdf"
+              class="botao outer-shadow"
+              >Veja meu CV</a
+            >
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Habilidades</h2>
-        </div>
-      </div>
-
-        <div class="informacoes html">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
-          </div>
-        </div>
-
-        <div class="informacoes css">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
-          </div>
-        </div>
-      
-      <div class="container-habilidades">
-        <div class="informacoes javascript">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
           </div>
         </div>
 
         <div class="container-habilidades">
-          <div class="informacoes javascript">
+          <div class="informacoes">
             <div class="logo">
-              <i class="devicon devicon-react-plain" id="javascript"></i>
+              <i class="devicon devicon-html5-plain-wordmark"></i>
             </div>
           </div>
-          
-      <div class="container-habilidades">
-        <div class="informacoes python">
-          <div class="logo">
-            <i class="devicon devicon-python-plain" id="javascript"></i>
-          </div>
-        </div>
 
-          <div class="informacoes typescript">
+          <div class="informacoes">
             <div class="logo">
-              <i class="devicon devicon-typescript-plain" id="git"></i>
+              <i class="devicon devicon-css3-plain-wordmark"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-react-plain"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-python-plain"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-typescript-plain"></i>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Ferramentas e Plataformas</h2>
-        </div>
-      </div>
-
-        <div class="informacoes github">
-          <div class="logo">
-            <i class="devicon devicon-github-original" id="github"></i>
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Ferramentas e Plataformas</h2>
           </div>
         </div>
 
-        <div class="informacoes git">
-          <div class="logo">
-            <i class="devicon devicon-git-plain" id="git"></i>
-          </div>
-        </div>
-
-        <div class="informacoes figma">
-          <div class="logo">
-            <i class="devicon devicon-figma-plain" id="git"></i>
-          </div>
-        </div>
-
-        <div class="informacoes vs code">
-          <div class="logo">
-            <i class="devicon devicon-vscode-plain" id="git"></i>
-          </div>
-        </div>
-
-    </div>
-  </section>
-
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Meus projetos</h2>
-        </div>
-      </div>
-
-      <div class="container-projetos">
-        <div class="projeto">        
-          <a href="https://diascarla.github.io/Baralho-api-fetch/" target="_blank">
-            <img src="./src/imagens-projetos/Animação-baralho-pi.gif" alt="Baralho API" />
-            <h3>Baralho API</h3>
-            <div class="informacoes-projeto">          
-              <p>Ao clicar no botão é feito uma aquisição para a API que troca a carta por outra carta aleatória. <br>
-                Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>     
-          </a>
-        </div>
-
-        <div class="projeto">        
-          <a href="https://diascarla.github.io/landing-agencia-xyz/" target="_blank">
-            <img src="./src/imagens-projetos/Animação-agencia-xyz.gif" alt="Landing page Agência XYZ" />
-            <h3>Agência XYZ</h3>
-            <div class="informacoes-projeto">          
-              <p>Landing page desenvolvido através do Figma, utilizando Grid com elementos interativos. <br> 
-                Projeto feito usando HTML e CSS.</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>      
-          </a>          
-        </div>
-
-        <div class="projeto">     
-          <a href="https://diascarla.github.io/projeto-inicial-fetch-github-api/" target="_blank">
-            <img src="./src/imagens-projetos/Animação-busca-usuario.gif" alt="Buscar usuário" />
-            <h3>Buscando usuário</h3>
-            <div class="informacoes-projeto">
-              <p>Ao digitar o nome do usuário a API trás informações do perfil do GitHub. <br>
-                Projeto feito usando HTML, CSS e JavaScript.</p>
-              <p>🔗 Ver no GitHub Pages</p>
+        <div class="container-habilidades">
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-github-original"></i>
             </div>
-          </a>   
-        </div>
+          </div>
 
-        <div class="projeto">
-          <a href="https://diascarla.github.io/app-gerador-de-conselhos/" target="_blank">
-            <img src="./src/imagens-projetos/Animação-app-gerador-de-conselhos.gif" alt="App gerador de conselhos" />
-            <h3>Gerador de conselhos</h3>
-            <div class="informacoes-projeto">
-              <p>Ao clicar no botão é gerado um conselho aleatório através da API <br>
-                Projeto feito usando HTML, CSS, JavaScript e API</p>
-              <p>🔗 Ver no GitHub Pages</p>
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-git-plain"></i>
             </div>
-          </a>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-figma-plain"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-vscode-plain"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-redux-plain" id="vs-code"></i>
+            </div>
+          </div>
+
+          <div class="informacoes vs code">
+            <div class="logo">
+              <i class="devicon devicon-docker-plain"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-postgresql-plain"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-jest-plain"></i>
+            </div>
+          </div>
+
+          <div class="informacoes">
+            <div class="logo">
+              <i class="devicon devicon-nodejs-plain"></i>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <div class="container">
-      <h2>Me envie uma mensagem!</h2>
-      <div class="redes-sociais">
-        <a href="https://www.linkedin.com/in/carla-dias-9971b7265/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://api.whatsapp.com/message/DWCWE2N7U3U2G1?autoload=1&app_absent=0" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://github.com/diascarla" class="outer-shadow" class="outer-shadow"><i class="fab fa-github"></i></a>
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
+          </div>
+        </div>
+
+        <div class="container-projetos">
+          <div class="projeto">
+            <a
+              href="https://diascarla.github.io/Baralho-api-fetch/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens-projetos/Animação-baralho-pi.gif"
+                alt="Baralho API"
+              />
+              <h3>Baralho API</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Ao clicar no botão é feito uma aquisição para a API que troca
+                  a carta por outra carta aleatória. <br />
+                  Projeto feito usando HTML, CSS e JavaScript
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://diascarla.github.io/landing-agencia-xyz/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens-projetos/Animação-agencia-xyz.gif"
+                alt="Landing page Agência XYZ"
+              />
+              <h3>Agência XYZ</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Landing page desenvolvido através do Figma, utilizando Grid
+                  com elementos interativos. <br />
+                  Projeto feito usando HTML e CSS.
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://diascarla.github.io/projeto-inicial-fetch-github-api/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens-projetos/Animação-busca-usuario.gif"
+                alt="Buscar usuário"
+              />
+              <h3>Buscando usuário</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Ao digitar o nome do usuário a API trás informações do perfil
+                  do GitHub. <br />
+                  Projeto feito usando HTML, CSS e JavaScript.
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://diascarla.github.io/app-gerador-de-conselhos/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens-projetos/Animação-app-gerador-de-conselhos.gif"
+                alt="App gerador de conselhos"
+              />
+              <h3>Gerador de conselhos</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Ao clicar no botão é gerado um conselho aleatório através da
+                  API <br />
+                  Projeto feito usando HTML, CSS, JavaScript e API
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://diascarla.github.io/Pokedex/" target="_blank">
+              <img
+                src="./src/imagens-projetos/animacao-pokedex.gif"
+                alt="App gerador de conselhos"
+              />
+              <h3>Pokedex</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Consumo de API pokeAPI onde padomos fazer a busca de todos os
+                  pokemons por nome ou ID, onde mostra-se informações mais
+                  detalhada sobre cada um.<br />
+                  Projeto feito usando React, frame-work e API
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://diascarla.github.io/Previsao-do-Tempo/"
+              target="_blank"
+            >
+              <img
+                src="./src/imagens-projetos/animacao-previsao-do-tempo.gif"
+                alt="App gerador de conselhos"
+              />
+              <h3>Previsão do tempo</h3>
+              <div class="informacoes-projeto">
+                <p>
+                  Consumo de API, podemos buscar por qualquer cidade onde é
+                  apresentado a temperatura, possibilidade de chuva entre outras
+                  informações.<br />
+                  Projeto feito usando React e API
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </section>
 
+    <footer class="footer">
+      <div class="container">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a
+            href="https://www.linkedin.com/in/carla-dias-9971b7265/"
+            class="outer-shadow"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/message/DWCWE2N7U3U2G1?autoload=1&app_absent=0"
+            class="outer-shadow"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a
+            href="https://github.com/diascarla"
+            class="outer-shadow"
+            class="outer-shadow"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

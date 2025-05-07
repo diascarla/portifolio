@@ -6,19 +6,12 @@
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
     color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
-    border-radius: 50%;
-    width: 65px;
-    height: 65px;
     line-height: 55px;
-    text-align: center;
-    text-decoration: underline;
     transition: all 0.3s ease;
 }
 
 .header a:hover .logo {
     color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
     font-size: 3.5rem;
 }
 
